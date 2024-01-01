@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header img {
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+header .heading {
+    opacity: 70%;
+    font-size: 2.6rem;
+}
+header .caption {
+    font-size: 1.2em;
+    opacity: 45%;
+    max-width: 45%;
+    text-align: center;
+    margin: 1rem;
+}
+
+header .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+header button {
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: auto 3%;
+    width: 12rem;
+    color: #fff;
+    height: 2.4rem;
+    cursor:  pointer;
+    border: none;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+header .btn-1 {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 4px 6px hsl(170, 72%, 29%);
+}
+header .btn-2 {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 4px 6px hsl(233, 85%, 53%);
+}
+.btn-1:hover {
+    background-color: hsl(171, 46%, 73%);
+}
+.btn-2:hover {
+    background-color: hsl(233, 60%, 76%);
+}
+
+section .heading {
+    opacity: 70%;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 7%;
+}
+
+section .caption {
+    font-size: 1.1em;
+    opacity: 40%;
+    text-align: center;
+    margin: 1rem auto;
+    max-width: 50%;
+}
+
+section img,.menu-1 {
+    margin-top: 5rem;
+    position: relative;
+    right: 2%;
+}
+.menu-1 h3 {
+    opacity: 70%;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-top: 7%;
+    margin-left: 20%;
+}
+.menu-1 p {
+    font-size: 1.1em;
+    opacity: 45%;
+    text-align:left;
+    max-width: 60%;
+    margin: 1rem auto;
+}
+.section-1 {
+    display: flex;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 h3 {
+    opacity: 70%;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.section-2 p {
+    font-size: 1.1em;
+    opacity: 40%;
+    text-align: center;
+    margin: 1rem auto;
+    max-width: 50%;
+}
+
+.section-2 img {
+    max-width: 80%;
+
+}
+.section-3 .heading {
+    opacity: 70%;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 7%;
+}
+.section-3 h3 {
+    opacity: 70%;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.section-3 p {
+    font-size: 1.1em;
+    opacity: 40%;
+    text-align: center;
+    margin: 1rem auto;
+    max-width: 50%;
+}
+.menu-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.menu-2 img {
+    position:relative;
+    left: 15rem;
+}
+
+.section-4 {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    margin-left: 8rem;
+}
+
+.section-5 .heading {
+    opacity: 70%;
+    font-size: 2rem;
+}
+.section-5 .caption {
+    font-size: 1rem;
+    opacity: 45%;
+    max-width: 45%;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.section-5 button {
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: auto 3%;
+    width: 12rem;
+    color: #fff;
+    height: 2.4rem;
+    cursor:  pointer;
+    border: none;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.section-5 .btn-1 {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 4px 6px hsl(170, 72%, 29%);
+}
+.section-5 .btn-2 {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 4px 6px hsl(233, 85%, 53%);
+}
+.btn-1:hover {
+    background-color: hsl(171, 46%, 73%);
+}
+.btn-2:hover {
+    background-color: hsl(233, 60%, 76%);
+}
